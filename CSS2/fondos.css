@@ -1,0 +1,32 @@
+.grid-container3  {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+justify-content: space-evenly;
+    
+    background-color: grey;
+    padding: 15px;
+
+
+}
+
+.grid-container3 > div{
+   width: 25vw;
+    margin: 15px;
+ 
+   text-align: center;
+   padding: 15px;
+   border: 2px solid black;
+
+}  
+
+.plano{
+   background-color: rgb(37, 188, 188);
+}  
+
+.gradiente{
+    background: linear-gradient(to right, red,blue);
+ }  
+
+ .imagen{
+    background-image: url(https://s2.ppllstatics.com/elcorreo/www/multimedia/202002/14/media/cortadas/cieloazul1-k1zG-U100155473657HzH-1968x1216@RC.jpg);
+ }  
